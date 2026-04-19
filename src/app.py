@@ -19,7 +19,7 @@ st.set_page_config(
 # ── Load model ────────────────────────────────────────────────────
 @st.cache_resource
 def get_model():
-    return load_model("../models/fraud_model.pkl")
+    return load_model("models/fraud_model.pkl")
 
 # ── Header ────────────────────────────────────────────────────────
 st.title("🔍 Fraud Detection System")
