@@ -40,3 +40,4 @@ def test_legitimate_prediction():
 def test_fraud_prediction():
     model = load_model(MODEL_PATH)
     assert predict(model, FRAUD.copy())["prediction"] == "FRAUD"
+    assert predict(model, FRAUD.copy())["prediction"] == "FRAUD"
