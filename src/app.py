@@ -23,7 +23,7 @@ def get_model():
 
 # ── Header ────────────────────────────────────────────────────────
 st.title("🔍 Fraud Detection System")
-st.markdown("**MLOps Course — Suresh D R | AI Product Developer**")
+st.markdown("**MLOps")
 st.markdown("---")
 st.markdown("Fill in the transaction details below and click **Predict** to check if it is fraud.")
 
@@ -185,4 +185,4 @@ if st.button("🔍 Predict — Is This Fraud?", use_container_width=True, type="
 
 # ── Footer ────────────────────────────────────────────────────────
 st.markdown("---")
-st.markdown("*MLOps Syllabus — Deploy and Retrain ML Models on AWS | Suresh D R*")
+st.markdown("*MLOps")
